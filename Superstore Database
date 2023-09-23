@@ -43,6 +43,6 @@ FROM superstore
 WHERE category="Kitchen Supplies";
 
 #Freestyle question using the data to answer a question. How many memory foam mattresses are in stock?
-SELECT stock_quantity, item_name="Memory Foam Mattress"
+SELECT stock_quantity
 FROM superstore
 WHERE item_name="Memory Foam Mattress";
